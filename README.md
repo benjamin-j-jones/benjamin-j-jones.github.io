@@ -1,2 +1,2 @@
-# benjamin-j-jones.github.io
+# Benjamin J. Jones
 My GitHub Pages Website
