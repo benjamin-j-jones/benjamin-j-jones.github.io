@@ -1,8 +1,6 @@
 @charset "utf-8";
 /* Global Styles */
 
-
-
 body {
 	margin-left: auto;
 	margin-right: auto;
@@ -16,16 +14,19 @@ header {
 	text-align: center;
 	display: block;
 }
-
+header .profileLogo .logoPlaceholder {
+	background-color: rgba(208,207,207,1.00);
+	width: 187px;
+	text-align: center;
+}
 header .logoPlaceholder span {
-    height: 22px;
-    font-family: 'Montserrat', sans-serif;
-    color: rgba(255,255,255,1.00);
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 53px;
-    width: 82px;
-    float: none;
+	width: 80px;
+	height: 22px;
+	font-family: 'Montserrat', sans-serif;
+	color: rgba(255,255,255,1.00);
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 53px;
 }
 header .profilePhoto {
 	background-color: rgba(237,237,237,1.00);
@@ -35,18 +36,21 @@ header .profilePhoto {
 	clear: both;
 }
 header .profileHeader h1 {
-    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
-    color: rgba(146,146,146,1.00);
-    font-size: 42px;
-    font-weight: normal;
-    line-height: 21px;
+	font-family: 'Impact', sans-serif;
+	color: rgba(146,146,146,1.00);
+	font-size: 52px;
+	font-weight: 50;
+	line-height: 50px;
+	display: inline;
+	letter-spacing: 2px;
 }
 header .profileHeader h3 {
-    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
-    color: rgba(146,146,146,1.00);
-    font-size: 22px;
-    font-weight: normal;
-    line-height: 24px;
+	font-family: 'Impact', sans-serif;
+	color: rgba(146,146,146,1.00);
+	font-size: 24px;
+	font-weight: 10;
+	line-height: 24px;
+	letter-spacing: 2px;
 }
 hr {
 	background-color: rgba(208,207,207,1.00);
@@ -55,18 +59,19 @@ hr {
 header .profileHeader p {
 	font-family: sans-serif;
 	color: rgba(146,146,146,1.00);
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: 400;
 	line-height: 1.8;
 	overflow-y: auto;
+	display: block;
 }
 header .socialNetworkNavBar {
-    text-align: center;
-    display: block;
-    margin-top: 60px;
-    width: auto;
-    right: auto;
-    clear: none;
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	clear: both;
 }
 header .socialNetworkNavBar .socialNetworkNav {
 	border-radius: 50%;
@@ -100,38 +105,12 @@ header .socialNetworkNavBar .socialNetworkNav img:hover {
 	font-family: ProximaNova;
 	font-size: 14px;
 	font-weight: 100;
-	color: rgba(0,0,0,1.00);
+	color: rgba(208,207,207,1.00);
 }
 .mainContent .section1 .section1Content span {
 	color: rgba(146,146,146,1.00);
 	font-family: sans-serif;
 }
-
-.mainContent .section1 .section1Content a:link {
-	color: rgba(146,146,146,0.5);
-	font-family: sans-serif;
-	text-decoration: none;
-}
-
-.mainContent .section1 .section1Content a:visited {
-	color: rgba(0,0,0,1);
-	font-family: sans-serif;
-	font-weight: bold;
-	text-decoration: none;
-}
-
-.mainContent .section1 .section1Content a:hover {
-	color: rgba(112,147,217,1.00);
-	font-family: sans-serif;
-	text-decoration: underline;
-}
-
-.mainContent .section1 .section1Content a:active {
-	color: rgba(112,147,217,1.00);
-	font-family: sans-serif;
-	text-decoration: underline;
-}
-
 .section2 .sectionContentTitle {
 	font-family: sans-serif;
 	color: rgba(146,146,146,1.00);
@@ -254,7 +233,6 @@ header .socialNetworkNavBar .socialNetworkNav {
 	display: inline-block;
 	text-align: left;
 	font-family: sans-serif;
-	
 }
 .mainContent .section2 {
 	display: block;
@@ -288,8 +266,8 @@ header {
 	float: none;
 }
 header .profileLogo .logoPlaceholder {
-    display: inline-block;
-    font-family: 'Montserrat', sans-serif;
+	display: inline-block;
+	font-family: 'Montserrat', sans-serif;
 }
 header .profilePhoto {
 	float: left;
