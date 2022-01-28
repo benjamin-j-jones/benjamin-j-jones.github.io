@@ -59,8 +59,8 @@ header .profileHeader h3 {
 	font-size: 17px;
 	font-weight: 50;
 	line-height: 4px;
-	letter-spacing: 3px;
 	display: inline;
+	letter-spacing: 3px;	
 }
 hr {
 	background-color: rgba(208,207,207,1.00);
