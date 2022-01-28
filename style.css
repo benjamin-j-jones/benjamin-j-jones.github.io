@@ -44,13 +44,23 @@ header .profileHeader h1 {
 	display: inline;
 	letter-spacing: 2px;
 }
+header .profileHeader h2 {
+	font-family: 'Impact', sans-serif;
+	color: rgba(146,146,146,1.00);
+	font-size: 35px;
+	font-weight: 50;
+	line-height: 50px;
+	display: inline;
+	letter-spacing: 2px;
+}
 header .profileHeader h3 {
 	font-family: 'Impact', sans-serif;
 	color: rgba(146,146,146,1.00);
-	font-size: 24px;
-	font-weight: 10;
-	line-height: 24px;
-	letter-spacing: 2px;
+	font-size: 17px;
+	font-weight: 50;
+	line-height: 4px;
+	letter-spacing: 3px;
+	display: inline;
 }
 hr {
 	background-color: rgba(208,207,207,1.00);
